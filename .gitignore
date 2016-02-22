@@ -1,0 +1,8 @@
+_site
+.sass-cache
+.jekyll-metadata
+gulp/node_modules
+assets/css/fonts/pnov
+assets/css/fonts/bariol
+Gemfile.lock
+

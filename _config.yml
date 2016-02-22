@@ -1,0 +1,31 @@
+# Welcome to the Jekyll Starter
+#
+# This config file is meant for settings that affect your whole website, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Jekyll Starter with Gulp Asset Pipeline
+email: joe@example.com
+description: A starter combining gulp build tools, browsersync, and Jekyll for rapid front-end development of static publishing sites.
+baseurl: ""
+url: "http://thepathologistsmeeting.org" # the base hostname & protocol for your site
+
+# jQuery (set to true to include CDN call in <head>)
+jquery: true
+
+# Critical Render Path
+crp: false
+
+# Exclude from Build
+exclude: [gulp]
+
+# Social Media
+twitter_username: joeexample
+github_username:  joeexample
+
+# Build Settings
+markdown: kramdown
+compress_html: #remove comments as part of compression (liquid only html minification layout): 
+  comments: ["<!-- ", " -->"]
